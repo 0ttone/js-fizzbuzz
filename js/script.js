@@ -14,5 +14,13 @@ var list
 
 for (var i = 1; i <=100; i++){
       output.innerHTML += "</br> " + i;
+if (i % 3 === 0){
+      output.innerHTML += "Fizz";
+} else if (i % 5 === 0){
+      output.innerHTML += "Buzz";
+} else if (i % 3 === 0 && i % 5 === 0){
+      output.innerHTML += "FizzBuzz";
 }
+}
+// condizioni di inserimento multiple
 
