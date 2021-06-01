@@ -13,13 +13,15 @@ var list
 //definizione ciclo output da 1 a 100 con for
 
 for (var i = 1; i <=100; i++){
-      output.innerHTML += "</br> " + i;
+      
 if (i % 3 === 0 && i % 5 === 0){
       output.innerHTML += "FizzBuzz";
 } else if (i % 5 === 0){
       output.innerHTML += "Buzz";
 } else if (i % 3 === 0){
       output.innerHTML += "Fizz";
+} else {
+      output.innerHTML +=  + i;
 }
 }
 // condizioni di inserimento multiple
